@@ -2,7 +2,7 @@
   margin:0;
   padding: 0;
 } */
-ul {
+ul.topbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -10,11 +10,11 @@ ul {
   background-color: #333;
 }
 
-li {
+li.topbar-list {
   float: left;
 }
 
-li a {
+li.topbar-list  a {
   display: block;
   color: white;
   text-align: center;
@@ -23,7 +23,7 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+li.topbar-list a:hover {
   background-color: #111;
 }
 
@@ -100,3 +100,23 @@ a.preview-link {
 .clearBoth {
   clear: both;
 }
+
+
+.pagination {
+  list-style-type:none;
+  
+}
+
+li.pagination-list  {
+  float: left;
+}
+
+li.pagination-list a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.pagination-list a:hover:not(.active) {background-color: #ddd;}
